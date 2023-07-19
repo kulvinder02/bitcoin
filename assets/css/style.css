@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none  !important;
+}
+
+section{
+    background-image: url(../images/hro-bg-section.png);
+
+}
+.navbar1{
+    padding-top: 106px;
+}
+.logo{
+    margin-right: 116px;
+    margin-left: 50px;
+}
+.nav-svg{
+    
+}
