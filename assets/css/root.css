@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;400;600&family=Roboto:wght@100;300;400;500&family=Rye&family=Work+Sans:wght@100;200;400;500;600&display=swap');
+:root {
+    --fs-12: 12px;
+    --fs-22: 22px;
+    --fs-28: 28px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-40: 40px;
+    --fs-43: 43px;
+    --fs-48: 48px;
+    --fs-75: 75px;
+
+    --fw-300: 300;
+    --fw-600: 600;
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-500: 800;
+    
+}
+.clr-white{
+    color: white;
+}
+.ff {
+    font-family:Open Sans;
+}
+
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+.fw-800 {
+    font-weight: var(--fw-800);
+}
+
+
+.fs-12 {
+    font-size: var(--fs-12);
+}
+.fs-22 {
+    font-size: var(--fs-22);
+}
+.fs-18 {
+    font-size: var(--fs-18);
+}
+.fs-20 {
+    font-size: var(--fs-20);
+}
+.fs-40 {
+    font-size: var(--fs-40);
+}
+.fs-43 {
+    font-size: var(--fs-43);
+}
+.fs-48 {
+    font-size: var(--fs-48);
+}
+.fs-75 {
+    font-size: var(--fs-75);
+}
