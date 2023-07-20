@@ -1,0 +1,144 @@
+.footer-bg-color {
+    background: #252B42;
+}
+
+.inp {
+    border-radius: 35px;
+    border: 1px solid rgba(37, 43, 66, 0.33);
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(32, 145, 249, 0.10);
+    width: 100%;
+    height: 61px;
+
+}
+
+.clr-black {
+    color: rgba(37, 43, 66, 0.69);
+}
+
+.clr-blck {
+    color: #252B42;
+}
+
+.txtarea {
+    border-radius: 35px;
+    border: 1px solid rgba(37, 43, 66, 0.33);
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(32, 145, 249, 0.10);
+    resize: unset;
+    width: 100%;
+}
+
+.btn-man {
+    padding: 21px 80px;
+    border-radius: 35px;
+    background: #2091F9;
+    border: none;
+}
+
+.imgman {
+    width: 908px;
+    height: 908px;
+    width: 100%;
+    height: 100%;
+}
+
+.last-s-bg-color {
+    background-color: #252B42;
+}
+
+.clr-blk {
+    color: #222B32;
+}
+
+.cards {
+    background-color: white;
+    height: 90%;
+}
+
+.cards:hover {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #2091F9;
+    transform: scale(1.10);
+    transition: all 0.3s;
+}
+.cards:hover p{
+    color: #FFF !important;
+}
+.cards:hover span{
+    color: #FFF !important;
+}
+.cards:hover div button {
+    background-color: #FFF !important;
+    color: #2091F9 !important;
+}
+.sliders1{
+    border-radius: 12px;
+        background: #252B42;
+        box-shadow: 0px 0px 20px 0px rgba(26, 116, 199, 0.25);   
+        
+}
+.max-width{
+
+    align-items: center;
+    text-align: center;
+
+}
+.line{
+   max-width: 679px;
+       min-height: 2px;
+    background: #252B42;
+    margin-top: 12px;
+    
+}
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 26px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 1 !important ;
+   color:#1A74C7 !important;
+    
+    
+}
+.slick-dots li.slick-active button:before {
+    opacity: none;
+    color: #252B42 !important;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.btn-man {
+    padding: 15px 50px;
+}
+
+.btn-ordr {
+    border-radius: 35px;
+    background: var(--primary, #2091F9);
+    padding: 18px 38px;
+    border: unset;
+}
+
+@media (min-width:992px) {
+    .btn-man {
+        padding: 21px 80px;
+    }
+        .btn-ordr {
+            padding: 14px 28px;
+        }
+}
+@media (min-width:992px) {
+    .btn-ordr {
+            padding: 18px 38px;
+        }
+}
