@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;400;600&family=Roboto:wght@100;300;400;500&family=Rye&family=Work+Sans:wght@100;200;400;500;600&display=swap');
 :root {
     --fs-12: 12px;
+    --fs-14: 14px;
     --fs-22: 22px;
     --fs-28: 28px;
     --fs-18: 18px;
     --fs-20: 20px;
+    --fs-28: 28px;
     --fs-40: 40px;
     --fs-43: 43px;
     --fs-48: 48px;
@@ -15,11 +17,14 @@
     --fw-400: 400;
     --fw-700: 700;
     --fw-500: 500;
-    --fw-500: 800;
+    --fw-800: 800;
     
 }
 .clr-white{
     color: white;
+}
+.secdry-clr{
+    color: #8093F6;
 }
 .ff {
     font-family:Open Sans;
@@ -48,11 +53,17 @@
 .fs-12 {
     font-size: var(--fs-12);
 }
+.fs-14 {
+    font-size: var(--fs-14);
+}
 .fs-22 {
     font-size: var(--fs-22);
 }
 .fs-18 {
     font-size: var(--fs-18);
+}
+.fs-28 {
+    font-size: var(--fs-28);
 }
 .fs-20 {
     font-size: var(--fs-20);
