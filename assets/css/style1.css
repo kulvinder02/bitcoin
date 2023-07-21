@@ -54,19 +54,25 @@
 .cards {
     background-color: white;
     height: 90%;
+    width: 100%;
 }
 
 .cards:hover {
     height: 100%;
-    width: 80%;
+ 
     margin-left: 10%;
     background-color: #2091F9;
     transform: scale(1.10);
-    transition: all 0.3s;
+   
 }
-
+.cards{
+    transition:400ms linear;
+}
 .cards:hover p {
     color: #FFF !important;
+}
+.cards:hover  {
+    width: 80%;
 }
 
 .cards:hover span {
