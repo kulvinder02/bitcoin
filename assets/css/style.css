@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 * {
+=======
+
+*{
+>>>>>>> 27d093ad23bd507c19e8fd1cd08e35bb7833249f
     box-sizing: border-box;
     text-decoration: none !important;
     list-style-type: none !important;
@@ -24,6 +29,7 @@ nav {
 .logo {
     margin-right: 116px;
     margin-left: 50px;
+<<<<<<< HEAD
 }
 
 .tags {
@@ -574,4 +580,6 @@ nav {
 .linear-svg:hover svg path {
     cursor: pointer;
     fill: url();
+=======
+>>>>>>> 27d093ad23bd507c19e8fd1cd08e35bb7833249f
 }

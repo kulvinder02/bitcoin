@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;400;600&family=Roboto:wght@100;300;400;500&family=Rye&family=Work+Sans:wght@100;200;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap');
+
 :root {
     --fs-12: 12px;
     --fs-14: 14px;
+<<<<<<< HEAD
+=======
+    --fs-16: 16px;
+>>>>>>> 27d093ad23bd507c19e8fd1cd08e35bb7833249f
     --fs-22: 22px;
+    --fs-24: 24px;
     --fs-28: 28px;
     --fs-18: 18px;
     --fs-20: 20px;
@@ -17,66 +25,161 @@
     --fw-400: 400;
     --fw-700: 700;
     --fw-500: 500;
+<<<<<<< HEAD
     --fw-800: 800;
     
+=======
+    --fw-500: 800;
+
+>>>>>>> 27d093ad23bd507c19e8fd1cd08e35bb7833249f
 }
-.clr-white{
+
+.clr-white {
     color: white;
 }
+<<<<<<< HEAD
 .secdry-clr{
     color: #8093F6;
 }
+=======
+
+>>>>>>> 27d093ad23bd507c19e8fd1cd08e35bb7833249f
 .ff {
-    font-family:Open Sans;
+    font-family: Open Sans;
+}
+
+.ff1 {
+    font-family: 'Jost', sans-serif;
+}
+
+.ff2 {
+    font-family: 'Poppins', sans-serif;
 }
 
 .fw-300 {
     font-weight: var(--fw-300);
 }
+
 .fw-400 {
     font-weight: var(--fw-400);
 }
+
 .fw-700 {
     font-weight: var(--fw-700);
 }
+
 .fw-500 {
     font-weight: var(--fw-500);
 }
+
 .fw-600 {
     font-weight: var(--fw-600);
 }
+
 .fw-800 {
     font-weight: var(--fw-800);
 }
 
-
 .fs-12 {
     font-size: var(--fs-12);
 }
+<<<<<<< HEAD
 .fs-14 {
     font-size: var(--fs-14);
 }
+=======
+.fs-14{
+    font-size: var(--fs-14);
+}
+.fs-16{
+    font-size: var(--fs-16);
+}
+>>>>>>> 27d093ad23bd507c19e8fd1cd08e35bb7833249f
 .fs-22 {
     font-size: var(--fs-22);
 }
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
 .fs-18 {
     font-size: var(--fs-18);
 }
+<<<<<<< HEAD
 .fs-28 {
     font-size: var(--fs-28);
 }
+=======
+
+>>>>>>> 27d093ad23bd507c19e8fd1cd08e35bb7833249f
 .fs-20 {
     font-size: var(--fs-20);
 }
+
 .fs-40 {
     font-size: var(--fs-40);
+}
+.fs-28{
+    font-size: var(--fs-28);
 }
 .fs-43 {
     font-size: var(--fs-43);
 }
+
 .fs-48 {
     font-size: var(--fs-48);
 }
+
 .fs-75 {
     font-size: var(--fs-75);
+}
+
+.col-12{
+    width: 100%;
+}
+:root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-22: 22px;
+    --fs-24: 20px;
+    --fs-28: 18px;
+    --fs-18: 18px;
+    --fs-20: 16px;
+    --fs-40: 40px;
+    --fs-43: 23px;
+    --fs-48: 28px;
+    --fs-75: 75px;
+
+    --fw-300: 300;
+    --fw-600: 600;
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-500: 800;
+
+}
+@media (min-width:992px) {
+    :root {
+            --fs-12: 12px;
+            --fs-14: 14px;
+            --fs-22: 22px;
+            --fs-24: 24px;
+            --fs-28: 28px;
+            --fs-18: 18px;
+            --fs-20: 20px;
+            --fs-40: 40px;
+            --fs-43: 43px;
+            --fs-48: 48px;
+            --fs-75: 75px;
+    
+            --fw-300: 300;
+            --fw-600: 600;
+            --fw-400: 400;
+            --fw-700: 700;
+            --fw-500: 500;
+            --fw-500: 800;
+    
+        }
 }
